@@ -1,0 +1,9 @@
+{
+    "development": {
+        "user": "root",
+        "password": "bummyGear",
+        "database": "sql_user",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    }
+}
