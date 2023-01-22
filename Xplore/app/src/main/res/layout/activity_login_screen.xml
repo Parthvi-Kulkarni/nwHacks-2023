@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/login_bg"
     android:gravity="center"
+    android:padding="40dp"
     android:orientation="vertical"
     tools:context=".LoginScreen">
 
@@ -14,34 +15,43 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="XPLORE"
-        android:textSize="50sp" />
+        android:layout_marginBottom="16dp"
+        android:textSize="80sp" />
 
     <EditText
         android:id="@+id/etEmail"
-        android:layout_width="match_parent"
+        android:layout_width="325dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/login_fields"
         android:hint="Username"
-        android:textSize="22sp" />
+        android:padding="13dp"
+        android:textSize="18sp" />
 
     <EditText
         android:id="@+id/etPassword"
-        android:layout_width="match_parent"
+        android:layout_width="325dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="13dp"
+        android:padding="13dp"
+        android:background="@drawable/login_fields"
         android:hint="Password"
-        android:textSize="22sp" />
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="128dp"
         android:layout_height="wrap_content"
-        android:background="#fff"
-        android:textColor="#1495d7"
+        android:background="@drawable/sign_in_button"
+        android:textColor="@android:color/black"
         android:text="SIGN IN" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center">
+        android:layout_height="70dp"
+        android:gravity="center|bottom">
 
         <TextView
             android:layout_width="wrap_content"
@@ -50,8 +60,8 @@
 
         <Button
             android:id="@+id/buttonSignUp"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="38dp"
             android:style="?android:borderlessButtonStyle"
             android:text="Sign Up!"
             android:textAllCaps="false" />
