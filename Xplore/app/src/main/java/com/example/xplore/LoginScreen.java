@@ -36,8 +36,9 @@ public class LoginScreen extends AppCompatActivity {
 
                 Bundle sendBundle = new Bundle();
                 sendBundle.putString("Username", username);
-                Intent i = new Intent(LoginScreen.this. CreateProfile.class);
-
+                Intent intent = new Intent(LoginScreen.this, CreateProfile.class);
+                intent.putExtras(sendBundle);
+                startActivity(intent);
             }
         });
 

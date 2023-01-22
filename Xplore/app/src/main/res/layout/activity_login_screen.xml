@@ -62,7 +62,7 @@
             android:id="@+id/buttonSignUp"
             android:layout_width="90dp"
             android:layout_height="38dp"
-            android:style="?android:borderlessButtonStyle"
+            style="?android:attr/borderlessButtonStyle"
             android:text="Sign Up!"
             android:textAllCaps="false" />
     </LinearLayout>
@@ -71,7 +71,7 @@
         android:id="@+id/buttonForgotPwd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:style="?android:borderlessButtonStyle"
+        style="?android:attr/borderlessButtonStyle"
         android:text="Forgot Password?"
         android:textAllCaps="false" />
 
