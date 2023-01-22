@@ -73,7 +73,6 @@
         android:layout_below="@id/date_of_birth"
         android:background="#30fffff"
         android:hint="Name of your University"
-        android:ems="10"
         android:inputType="date"
         android:textColorHint="@color/black"
         android:textColor="@color/black"
@@ -124,26 +123,24 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="1dp"
-                android:button="android:color/transparent"
-                android:background="@drawable/radio_normal"
-                android:textColor="@drawable/radio_text_color"
-                android:elevation="4dp"
-                android:text="Active"
-                android:gravity="center"
-                />
-
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:background="@drawable/radio_normal"
                 android:button="android:color/transparent"
                 android:elevation="4dp"
-                android:padding="4dp"
+                android:paddingHorizontal="65dp"
                 android:text="Chill"
                 android:textColor="@drawable/radio_text_color" />
-
         </RadioGroup>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_normal"
+            android:button="android:color/transparent"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:paddingHorizontal="65dp"
+            android:text="Active"
+            android:textColor="@drawable/radio_text_color" />
     </LinearLayout>
 
 
