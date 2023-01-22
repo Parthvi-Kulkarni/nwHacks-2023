@@ -18,13 +18,14 @@ private Toolbar toolbar;
         setContentView(R.layout.activity_main);
 
         toolbar=(Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Programming Languages");
+        toolbar.setTitle("Personal Travel Recommendations");
         setSupportActionBar(toolbar);
 
         tabLayout=(TabLayout) findViewById(R.id.tablayout);
-        tabLayout.addTab(tabLayout.newTab().setText("JAVA"));
-        tabLayout.addTab(tabLayout.newTab().setText("PYTHON"));
-        tabLayout.addTab(tabLayout.newTab().setText("C++"));
+        tabLayout.addTab(tabLayout.newTab().setText("BALI"));
+        tabLayout.addTab(tabLayout.newTab().setText("CUSCO"));
+        tabLayout.addTab(tabLayout.newTab().setText("NAPES"));
+        tabLayout.addTab(tabLayout.newTab().setText("TULUM"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_CENTER);
 
         viewPager=findViewById(R.id.viewpager);
