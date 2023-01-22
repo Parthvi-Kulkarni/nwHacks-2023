@@ -30,35 +30,15 @@
                 android:textSize="35sp" />
 
             <EditText
-                android:id="@+id/firstName"
+                android:id="@+id/full_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/sign_in"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_margin="10dp"
                 android:background="@drawable/edit_rounded"
                 android:drawableLeft="@drawable/ic_baseline_person_outline_24"
                 android:drawablePadding="20dp"
-                android:hint="First Name"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black" />
-
-            <EditText
-                android:id="@+id/lastName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/firstName"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/edit_rounded"
-                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
-                android:drawablePadding="20dp"
-                android:hint="Last Name"
+                android:hint="Full Name"
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/black" />
@@ -68,7 +48,7 @@
                 android:id="@+id/city"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/lastName"
+                android:layout_below="@id/full_name"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
@@ -80,7 +60,6 @@
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/black" />
-
 
 
             <EditText

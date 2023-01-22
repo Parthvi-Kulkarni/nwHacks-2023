@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginScreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="XPLORE"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="#1495d7"
+        android:text="SIGN IN" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?" />
+
+        <Button
+            android:id="@+id/buttonSignUp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:style="?android:borderlessButtonStyle"
+            android:text="Sign Up!"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonForgotPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:style="?android:borderlessButtonStyle"
+        android:text="Forgot Password?"
+        android:textAllCaps="false" />
+
+</LinearLayout>
