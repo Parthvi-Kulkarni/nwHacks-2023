@@ -9,19 +9,19 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/toolbar"
-    android:background="@color/orange"
+    android:background="@drawable/login_bg"
     android:layout_alignParentEnd="true"/>
     <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tablayout"
-        android:background="@color/yellow"
+        android:background="@drawable/login_bg"
         android:layout_below="@+id/toolbar"
         app:tabMode="scrollable"/>
     <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/viewpager"
-        android:background="@color/desert"
+        android:background="@drawable/login_bg"
         android:layout_below="@+id/tablayout"/>
 </RelativeLayout>
