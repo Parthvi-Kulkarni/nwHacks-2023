@@ -1,5 +1,6 @@
 package com.example.xplore;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -50,6 +51,8 @@ public class CreateProfile extends AppCompatActivity {
         createProfileButton.setOnClickListener(v->{
             try {
                 this.createProfile();
+                Intent intent = new Intent(CreateProfile.this, MainActivity.class);
+                startActivity(intent);
             }
             catch(Exception e){
                 int i=0;

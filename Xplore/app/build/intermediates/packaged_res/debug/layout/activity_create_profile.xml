@@ -232,7 +232,7 @@
                         android:background="@drawable/radio_normal"
                         android:elevation="4dp"
                         android:layout_marginHorizontal="10dp"
-                        android:paddingHorizontal="50dp"
+                        android:paddingHorizontal="30dp"
                         android:text="Relaxing"
                         android:textColor="@drawable/radio_text_color" />
 
@@ -242,7 +242,7 @@
                         android:background="@drawable/radio_normal"
                         android:elevation="4dp"
                         android:gravity="center"
-                        android:paddingHorizontal="50dp"
+                        android:paddingHorizontal="30dp"
                         android:text="Active"
                         android:textColor="@drawable/radio_text_color" />
                 </RadioGroup>
@@ -283,7 +283,7 @@
                         android:background="@drawable/radio_normal"
                         android:elevation="4dp"
                         android:layout_marginHorizontal="10dp"
-                        android:paddingHorizontal="50dp"
+                        android:paddingHorizontal="30dp"
                         android:text="Outdoor"
                         android:textColor="@drawable/radio_text_color" />
 
@@ -293,7 +293,7 @@
                         android:background="@drawable/radio_normal"
                         android:elevation="4dp"
                         android:gravity="center"
-                        android:paddingHorizontal="50dp"
+                        android:paddingHorizontal="30dp"
                         android:text="Indoor"
                         android:textColor="@drawable/radio_text_color" />
                 </RadioGroup>
@@ -332,7 +332,7 @@
                         android:background="@drawable/radio_normal"
                         android:elevation="4dp"
                         android:layout_marginHorizontal="10dp"
-                        android:paddingHorizontal="50dp"
+                        android:paddingHorizontal="30dp"
                         android:text="Mountains"
                         android:textColor="@drawable/radio_text_color" />
 
@@ -342,7 +342,7 @@
                         android:background="@drawable/radio_normal"
                         android:elevation="4dp"
                         android:gravity="center"
-                        android:paddingHorizontal="50dp"
+                        android:paddingHorizontal="30dp"
                         android:text="Beaches"
                         android:textColor="@drawable/radio_text_color" />
                 </RadioGroup>
@@ -350,14 +350,13 @@
 
             <Button
                 android:id="@+id/CreateProfileSubmit"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_below="@id/radio3"
-                android:layout_marginVertical="40dp"
-                android:layout_marginTop="40dp"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sign_in_button"
+                android:textColor="@android:color/black"
+                android:text="Create Profile"
                 android:gravity="center"
-                android:text="Submit"
-                android:textColor="@color/black"
                 />
 
 
