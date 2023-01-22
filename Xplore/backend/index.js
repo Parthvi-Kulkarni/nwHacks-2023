@@ -16,9 +16,9 @@ app.listen(8080, function() {
 })
 
 const sequelize = new Sequelize(
- 'user_db',
- 'nwHacks2023', // MySQL username
- 'nwHacks2023', // MySQL password
+ 'users_db',
+ 'root', // MySQL username
+ 'rootBanana', // MySQL password
   {
     host: '127.0.0.1',
     dialect: 'mysql'
