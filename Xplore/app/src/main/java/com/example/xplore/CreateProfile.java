@@ -18,28 +18,34 @@ public class CreateProfile extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityCreateProfileBinding binding;
-    EditText firstName = (EditText)findViewById(R.id.firstName);
-    EditText lastName = (EditText)findViewById(R.id.lastName);
-    EditText city= (EditText)findViewById(R.id.city);
-    EditText age=(EditText)findViewById(R.id.date_of_birth);
-    EditText university=(EditText)findViewById(R.id.University);
-    EditText major=(EditText)findViewById(R.id.Major);
-    EditText minor=(EditText)findViewById(R.id.Minor);
-    EditText dietaryRestrictions=(EditText)findViewById(R.id.dietaryRestrictions);
-    EditText interests=(EditText)findViewById(R.id.Interests);
-    EditText year=(EditText)findViewById(R.id.Year);
+    EditText firstName;
+    EditText lastName;
+    EditText city;
+    EditText age;
+    EditText university;
+    EditText major;
+    EditText minor;
+    EditText dietaryRestrictions;
+    EditText interests;
+    EditText year;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        binding = ActivityCreateProfileBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
-
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_create_profile);
-        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-
+        setContentView(R.layout.activity_create_profile);
+//        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_create_profile);
+//        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
+//        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+        this.firstName = (EditText)findViewById(R.id.firstName);
+        this.lastName = (EditText)findViewById(R.id.lastName);
+        this.city= (EditText)findViewById(R.id.city);
+        this.age=(EditText)findViewById(R.id.date_of_birth);
+        this.university=(EditText)findViewById(R.id.University);
+        this.major=(EditText)findViewById(R.id.Major);
+        this.minor=(EditText)findViewById(R.id.Minor);
+        this.dietaryRestrictions=(EditText)findViewById(R.id.dietaryRestrictions);
+        this.interests=(EditText)findViewById(R.id.Interests);
+        this.year=(EditText)findViewById(R.id.Year);
         Button createProfileButton =this.findViewById(R.id.CreateProfileSubmit);
         createProfileButton.setOnClickListener(v->{
             try {
@@ -67,6 +73,8 @@ public class CreateProfile extends AppCompatActivity {
         profileParams.put("question1", "Chill");
         profileParams.put("question2", "Active");
         profileParams.put("question3", "Active");
+
+
     }
 
     @Override

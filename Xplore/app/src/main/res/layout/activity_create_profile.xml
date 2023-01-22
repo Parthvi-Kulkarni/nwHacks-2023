@@ -109,7 +109,6 @@
                 android:background="@drawable/edit_rounded"
                 android:drawablePadding="20dp"
                 android:hint="Name of your University"
-                android:inputType="date"
                 android:padding="20dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/black" />
@@ -123,7 +122,6 @@
                 android:background="@drawable/edit_rounded"
                 android:drawablePadding="20dp"
                 android:hint="Major"
-                android:inputType="date"
                 android:padding="20dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/black" />
@@ -137,7 +135,7 @@
                 android:background="@drawable/edit_rounded"
                 android:drawablePadding="20dp"
                 android:hint="Year Level"
-                android:inputType="date"
+                android:inputType="number"
                 android:padding="20dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/black" />
@@ -151,7 +149,6 @@
                 android:background="@drawable/edit_rounded"
                 android:drawablePadding="20dp"
                 android:hint="Dietary Restrictions"
-                android:inputType="date"
                 android:padding="20dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/black" />
@@ -168,7 +165,6 @@
                 android:background="@drawable/edit_rounded"
                 android:drawablePadding="20dp"
                 android:hint="Minor"
-                android:inputType="date"
                 android:padding="20dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/black" />
@@ -185,7 +181,6 @@
                 android:background="@drawable/edit_rounded"
                 android:drawablePadding="20dp"
                 android:hint="Interests"
-                android:inputType="date"
                 android:padding="20dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/black" />
