@@ -30,6 +30,15 @@ public class PageAdapter extends FragmentPagerAdapter {
             case 2:
                 Cpp cpp = new Cpp();
                 return cpp;
+            case 3:
+                Tulum tulum = new Tulum();
+                return tulum;
+            case 4:
+                Budapest budapest = new Budapest();
+                return budapest;
+            case 5:
+                KualaLampur kualaLampur = new KualaLampur();
+                return kualaLampur;
         }
         return null;
     }

@@ -26,6 +26,8 @@ private Toolbar toolbar;
         tabLayout.addTab(tabLayout.newTab().setText("CUSCO"));
         tabLayout.addTab(tabLayout.newTab().setText("NAPES"));
         tabLayout.addTab(tabLayout.newTab().setText("TULUM"));
+        tabLayout.addTab(tabLayout.newTab().setText("BUDAPEST"));
+        tabLayout.addTab(tabLayout.newTab().setText("KUALA LAMPUR"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_CENTER);
 
         viewPager=findViewById(R.id.viewpager);
