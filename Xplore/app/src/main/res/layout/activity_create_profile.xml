@@ -39,7 +39,6 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/edit_rounded"
-                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
                 android:drawablePadding="20dp"
                 android:hint="First Name"
                 android:padding="15dp"
@@ -56,7 +55,6 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/edit_rounded"
-                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
                 android:drawablePadding="20dp"
                 android:hint="Last Name"
                 android:padding="15dp"
@@ -74,7 +72,6 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/edit_rounded"
-                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
                 android:drawablePadding="20dp"
                 android:hint="Current City"
                 android:padding="15dp"
@@ -93,10 +90,9 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/edit_rounded"
-                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
                 android:drawablePadding="20dp"
                 android:hint="Age (Years)"
-                android:inputType="Number"
+                android:inputType="number"
                 android:padding="20dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/black" />
@@ -111,7 +107,6 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/edit_rounded"
-                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
                 android:drawablePadding="20dp"
                 android:hint="Name of your University"
                 android:inputType="date"
@@ -126,7 +121,6 @@
                 android:layout_below="@id/Year"
                 android:layout_margin="10dp"
                 android:background="@drawable/edit_rounded"
-                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
                 android:drawablePadding="20dp"
                 android:hint="Major"
                 android:inputType="date"
@@ -141,7 +135,6 @@
                 android:layout_below="@id/University"
                 android:layout_margin="10dp"
                 android:background="@drawable/edit_rounded"
-                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
                 android:drawablePadding="20dp"
                 android:hint="Year Level"
                 android:inputType="date"
@@ -156,7 +149,6 @@
                 android:layout_below="@id/Minor"
                 android:layout_margin="10dp"
                 android:background="@drawable/edit_rounded"
-                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
                 android:drawablePadding="20dp"
                 android:hint="Dietary Restrictions"
                 android:inputType="date"
@@ -174,7 +166,6 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/edit_rounded"
-                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
                 android:drawablePadding="20dp"
                 android:hint="Minor"
                 android:inputType="date"
@@ -192,7 +183,6 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/edit_rounded"
-                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
                 android:drawablePadding="20dp"
                 android:hint="Interests"
                 android:inputType="date"
@@ -245,21 +235,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/radio_normal"
-                        android:button="android:color/transparent"
                         android:elevation="4dp"
                         android:layout_marginHorizontal="10dp"
-                        android:paddingHorizontal="65dp"
-                        android:text="Chill"
+                        android:paddingHorizontal="50dp"
+                        android:text="Relaxing"
                         android:textColor="@drawable/radio_text_color" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/radio_normal"
-                        android:button="android:color/transparent"
                         android:elevation="4dp"
                         android:gravity="center"
-                        android:paddingHorizontal="65dp"
+                        android:paddingHorizontal="50dp"
                         android:text="Active"
                         android:textColor="@drawable/radio_text_color" />
                 </RadioGroup>
@@ -272,7 +260,7 @@
                 android:layout_marginVertical="20dp"
                 android:gravity="left"
                 android:paddingHorizontal="20dp"
-                android:text="Do you prefer more active or chill activities while travelling?"
+                android:text="Outdoors or Indoor?"
                 android:textColor="@color/black"
                 android:textSize="15dp" />
             <LinearLayout
@@ -298,22 +286,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/radio_normal"
-                        android:button="android:color/transparent"
                         android:elevation="4dp"
                         android:layout_marginHorizontal="10dp"
-                        android:paddingHorizontal="65dp"
-                        android:text="Chill"
+                        android:paddingHorizontal="50dp"
+                        android:text="Outdoor"
                         android:textColor="@drawable/radio_text_color" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/radio_normal"
-                        android:button="android:color/transparent"
                         android:elevation="4dp"
                         android:gravity="center"
-                        android:paddingHorizontal="65dp"
-                        android:text="Active"
+                        android:paddingHorizontal="50dp"
+                        android:text="Indoor"
                         android:textColor="@drawable/radio_text_color" />
                 </RadioGroup>
             </LinearLayout>
@@ -325,7 +311,7 @@
                 android:layout_marginVertical="20dp"
                 android:gravity="left"
                 android:paddingHorizontal="20dp"
-                android:text="Do you prefer more active or chill activities while travelling?"
+                android:text="Mountains or beaches?"
                 android:textColor="@color/black"
                 android:textSize="15dp" />
             <LinearLayout
@@ -349,22 +335,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/radio_normal"
-                        android:button="android:color/transparent"
                         android:elevation="4dp"
                         android:layout_marginHorizontal="10dp"
-                        android:paddingHorizontal="65dp"
-                        android:text="Chill"
+                        android:paddingHorizontal="50dp"
+                        android:text="Mountains"
                         android:textColor="@drawable/radio_text_color" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/radio_normal"
-                        android:button="android:color/transparent"
                         android:elevation="4dp"
                         android:gravity="center"
-                        android:paddingHorizontal="65dp"
-                        android:text="Active"
+                        android:paddingHorizontal="50dp"
+                        android:text="Beaches"
                         android:textColor="@drawable/radio_text_color" />
                 </RadioGroup>
             </LinearLayout>
