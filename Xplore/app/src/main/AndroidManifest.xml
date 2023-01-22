@@ -12,9 +12,20 @@
         android:theme="@style/Theme.Xplore"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="false" />
+        <activity
             android:name=".CreateProfile"
             android:exported="false"
             android:label="@string/title_activity_create_profile"
+            android:theme="@style/Theme.Xplore.NoActionBar" />
+        <activity
+            android:name="com.example.xplore.ViewProfile"
+            android:exported="false"
+            android:label="@string/title_activity_view_profile"
             android:theme="@style/Theme.Xplore.NoActionBar" />
         <activity
             android:name=".LoginScreen"
@@ -23,10 +34,8 @@
             android:theme="@style/Theme.Xplore.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

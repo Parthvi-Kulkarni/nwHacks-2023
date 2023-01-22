@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:background="@drawable/login_bg"
+    android:layout_alignParentEnd="true"/>
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablayout"
+        android:background="@drawable/login_bg"
+        android:layout_below="@+id/toolbar"
+        app:tabMode="scrollable"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/tulum" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/screen_shot_2023_01_22_at_11_29_51_am" />
+
+    <Button
+        android:id="@+id/CreateProfileSubmit"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView4"
+        android:layout_marginTop="-145dp"
+        android:background="@drawable/sign_in_button"
+        android:gravity="center"
+        android:text="LEARN MORE"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
