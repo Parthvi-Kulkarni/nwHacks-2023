@@ -10,11 +10,6 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.Volley;
-
 import com.example.xplore.databinding.ActivityCreateProfileBinding;
 
 import org.json.JSONException;
@@ -57,7 +52,6 @@ public class CreateProfile extends AppCompatActivity {
     }
 
     private void createProfile() throws JSONException {
-        RequestQueue queue = Volley.newRequestQueue(this);
         JSONObject profileParams = new JSONObject();
 //        profileParams.put("userId",this.);
         profileParams.put("firstName", this.firstName.getText().toString());
