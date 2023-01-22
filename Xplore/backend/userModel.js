@@ -40,7 +40,7 @@ const User = sequelize.define("user", {
     },
     profilePicture: {
         type: DataTypes.STRING,
-        defaultValue: "",
+        defaultValue: "https://media.istockphoto.com/id/610041376/photo/beautiful-sunrise-over-the-sea.jpg?s=612x612&w=0&k=20&c=R3Tcc6HKc1ixPrBc7qXvXFCicm8jLMMlT99MfmchLNA=",
         allowNull: false
     },
     currentCity: {

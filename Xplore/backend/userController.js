@@ -44,7 +44,7 @@ const createUser = async (req, res) => {
 
   const updateUser = async (req, res) => {
     const hasAllFields = req.body.firstName && req.body.lastName && req.body.age && req.body.profilePicture && req.body.currentCity && req.body.university && req.body.year && req.body.major && req.body.interests;
-    const validProfilePic = req.body.profilePicture.includes(".com");
+    const validProfilePic = true;
   
     if (hasAllFields && validProfilePic) {
       const response = await User.update(
