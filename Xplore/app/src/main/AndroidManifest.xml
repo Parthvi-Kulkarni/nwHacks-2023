@@ -17,7 +17,7 @@
             android:label="@string/title_activity_create_profile"
             android:theme="@style/Theme.Xplore.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginScreen"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Xplore.NoActionBar">
