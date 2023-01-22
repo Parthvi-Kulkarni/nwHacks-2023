@@ -32,6 +32,7 @@ public class CreateProfile extends AppCompatActivity {
     EditText minor=(EditText)findViewById(R.id.Minor);
     EditText dietaryRestrictions=(EditText)findViewById(R.id.dietaryRestrictions);
     EditText interests=(EditText)findViewById(R.id.Interests);
+    EditText year=(EditText)findViewById(R.id.Year);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +51,7 @@ public class CreateProfile extends AppCompatActivity {
                 this.createProfile();
             }
             catch(Exception e){
-                print(e);
+                int i=0;
             }
         });
     }
@@ -58,13 +59,13 @@ public class CreateProfile extends AppCompatActivity {
     private void createProfile() throws JSONException {
         RequestQueue queue = Volley.newRequestQueue(this);
         JSONObject profileParams = new JSONObject();
-        profileParams.put("userId",this.);
+//        profileParams.put("userId",this.);
         profileParams.put("firstName", this.firstName.getText().toString());
         profileParams.put("lastName", this.lastName.toString());
         profileParams.put("age", this.age);
         profileParams.put("currentCity", this.city.toString());
         profileParams.put("university", this.university.toString());
-        profileParams.put("year", this.);
+        profileParams.put("year", this.year.toString());
         profileParams.put("major", this.major.toString());
         profileParams.put("minor", this.minor.toString());
         profileParams.put("interests", this.interests.toString());
@@ -72,7 +73,6 @@ public class CreateProfile extends AppCompatActivity {
         profileParams.put("question1", "Chill");
         profileParams.put("question2", "Active");
         profileParams.put("question3", "Active");
-        queue.add();
     }
 
     @Override
