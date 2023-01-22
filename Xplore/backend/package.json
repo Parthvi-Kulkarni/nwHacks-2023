@@ -1,7 +1,18 @@
 {
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaiden",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "express-promise-router": "^4.1.1",
+    "mysql2": "^3.0.1",
+    "nano": "^10.1.1",
     "sequelize": "^6.28.0"
   }
 }
