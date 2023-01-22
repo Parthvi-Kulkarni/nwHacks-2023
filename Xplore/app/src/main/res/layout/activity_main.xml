@@ -29,10 +29,10 @@
         app:srcCompat="@drawable/tulum" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView4"
         android:layout_width="400dp"
-        android:layout_height="500dp"
-        android:layout_marginTop="220dp"
-        app:srcCompat="@drawable/screen_shot_2023_01_22_at_11_17_20_am" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/screen_shot_2023_01_22_at_11_29_51_am" />
 
 </RelativeLayout>

@@ -22,14 +22,14 @@ private Toolbar toolbar;
         setSupportActionBar(toolbar);
 
         tabLayout=(TabLayout) findViewById(R.id.tablayout);
-        tabLayout.addTab(tabLayout.newTab().setText("BALI"));
-        tabLayout.addTab(tabLayout.newTab().setText("CUSCO"));
-        tabLayout.addTab(tabLayout.newTab().setText("NAPES"));
-        tabLayout.addTab(tabLayout.newTab().setText("TULUM"));
-        tabLayout.addTab(tabLayout.newTab().setText("BUDAPEST"));
-        tabLayout.addTab(tabLayout.newTab().setText("KUALA LAMPUR"));
-        tabLayout.addTab(tabLayout.newTab().setText("BARCELONA"));
-        tabLayout.addTab(tabLayout.newTab().setText("BANGKOK"));
+        tabLayout.addTab(tabLayout.newTab().setText("TULUM, MEXICO"));
+        tabLayout.addTab(tabLayout.newTab().setText("CUSCO, PERU"));
+        tabLayout.addTab(tabLayout.newTab().setText("NAPLES, ITALY"));
+        tabLayout.addTab(tabLayout.newTab().setText("BALI, INDONESIA"));
+        tabLayout.addTab(tabLayout.newTab().setText("BUDAPEST, HUNGARY"));
+        tabLayout.addTab(tabLayout.newTab().setText("KUALA LAMPUR, MALAYSIA"));
+        tabLayout.addTab(tabLayout.newTab().setText("BARCELONA, SPAIN"));
+        tabLayout.addTab(tabLayout.newTab().setText("BANGKOK, THAILAND"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_CENTER);
 
         PageAdapter adapter = new PageAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
