@@ -42,8 +42,8 @@ public class LoginScreen extends AppCompatActivity {
             }
         });
 
-        showToast(username);
-        showToast(password);
+//        showToast(username);
+//        showToast(password);
     }
 
     private void showToast(String text) {
