@@ -28,9 +28,10 @@ private Toolbar toolbar;
         tabLayout.addTab(tabLayout.newTab().setText("TULUM"));
         tabLayout.addTab(tabLayout.newTab().setText("BUDAPEST"));
         tabLayout.addTab(tabLayout.newTab().setText("KUALA LAMPUR"));
+        tabLayout.addTab(tabLayout.newTab().setText("BARCELONA"));
+        tabLayout.addTab(tabLayout.newTab().setText("BANGKOK"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_CENTER);
 
-        viewPager=findViewById(R.id.viewpager);
         PageAdapter adapter = new PageAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
         tabLayout.setOnTabSelectedListener(this);

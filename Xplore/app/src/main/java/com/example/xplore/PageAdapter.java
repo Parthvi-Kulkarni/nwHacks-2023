@@ -22,14 +22,14 @@ public class PageAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                Java java = new Java();
-                return java;
+                Bali bali = new Bali();
+                return bali;
             case 1:
-                Python python = new Python();
-                return python;
+                Peru peru = new Peru();
+                return peru;
             case 2:
-                Cpp cpp = new Cpp();
-                return cpp;
+                Napes napes = new Napes();
+                return napes;
             case 3:
                 Tulum tulum = new Tulum();
                 return tulum;
@@ -39,6 +39,9 @@ public class PageAdapter extends FragmentPagerAdapter {
             case 5:
                 KualaLampur kualaLampur = new KualaLampur();
                 return kualaLampur;
+            case 6:
+                Barcelona barcelona = new Barcelona();
+                return barcelona;
         }
         return null;
     }
