@@ -1,6 +1,8 @@
 package com.example.xplore;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -31,6 +33,11 @@ public class LoginScreen extends AppCompatActivity {
             public void onClick(View v) {
                 username = usernameInput.getText().toString();
                 password = passwordInput.getText().toString();
+
+                Bundle sendBundle = new Bundle();
+                sendBundle.putString("Username", username);
+                Intent i = new Intent(LoginScreen.this. CreateProfile.class);
+
             }
         });
 
