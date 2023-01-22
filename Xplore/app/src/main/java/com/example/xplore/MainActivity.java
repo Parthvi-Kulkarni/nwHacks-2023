@@ -32,8 +32,6 @@ private Toolbar toolbar;
         tabLayout.addTab(tabLayout.newTab().setText("BANGKOK, THAILAND"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_CENTER);
 
-        PageAdapter adapter = new PageAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
-        viewPager.setAdapter(adapter);
         tabLayout.setOnTabSelectedListener(this);
     }
 

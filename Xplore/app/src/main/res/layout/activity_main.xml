@@ -35,4 +35,15 @@
         android:layout_marginTop="200dp"
         app:srcCompat="@drawable/screen_shot_2023_01_22_at_11_29_51_am" />
 
+    <Button
+        android:id="@+id/CreateProfileSubmit"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView4"
+        android:layout_marginTop="-145dp"
+        android:background="@drawable/sign_in_button"
+        android:gravity="center"
+        android:text="LEARN MORE"
+        android:textColor="@android:color/black" />
+
 </RelativeLayout>
